@@ -23,3 +23,8 @@ footer {
 .main-container {
     height: 93vh;
 }
+
+.logo {
+    height: 5em;
+    width: auto;
+}
