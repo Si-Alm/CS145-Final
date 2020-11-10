@@ -68,6 +68,10 @@
     display: block;
 }
 
+.investigative-list {
+    margin-top: .75em;
+}
+
 .investigative-list:hover {
     cursor: pointer;
     color: red;

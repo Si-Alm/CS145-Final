@@ -68,6 +68,10 @@
     display: block !important;
 }
 
+.security-list {
+    margin-top: .75em;
+}
+
 .security-list:hover {
     cursor: pointer;
     color: red;
