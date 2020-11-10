@@ -3,19 +3,111 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/security.css" />
+    <script src="../js/services.js"></script>
     <title>Security Services</title>
 </head>
 
-<body>
+<body onload="toggleService('Security', 0);">
     <header>
-
+        <a href="../index.html"><img src="../images/pi-services-logo.png" alt="logo" class="logo"></a>
+        <ul class="nav-ul">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="investigative.html">Investigative Services</a></li>
+            <li><a href="security.html" class="current">Security Services</a></li>
+            <li><a href="locations.html">Locations</a></li>
+        </ul>
     </header>
     <div class="main-container">
+        <div class="left">
+            <h2 class="left-header">Security Services</h2>
+            <ul class="service-list">
+                <br>
+                <!--Will have actual values in final draf(i.e. specific services instead of enumed)-->
+                <li onclick="toggleService('Security', 0);" class="security-list">Service 1</li>
+                <br>
+                <li onclick="toggleService('Security', 1);" class="security-list">Service 2</li>
+                <br>
+                <li onclick="toggleService('Security', 2);" class="security-list">Service 3</li>
+            </ul>
+        </div>
+        <div class="right">
+            <h1 id="security-head">Security Service 1</h1>
 
+            <hr class="service-hr">
+
+            <div class="service-text-container security-text">
+                <img src="../images/security.jpg" alt="security" class="top-left-img">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Nisl pretium fusce id velit ut tortor pretium. Suspendisse ultrices gravida
+                    dictum fusce ut. Ante metus dictum at tempor commodo. Id porta nibh venenatis cras. Nam aliquam sem
+                    et tortor consequat id porta nibh. In nibh mauris cursus mattis. Tincidunt nunc pulvinar sapien et.
+                    Habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Venenatis urna cursus eget nunc
+                    scelerisque. Nisl vel pretium lectus quam id leo. Eget nullam non nisi est sit amet facilisis magna.
+
+                    Amet dictum sit amet justo donec enim diam vulputate. Auctor eu augue ut lectus arcu bibendum. Metus
+                    vulputate eu scelerisque felis imperdiet. Viverra suspendisse potenti nullam ac tortor vitae. Enim
+                    eu turpis egestas pretium aenean pharetra magna. Urna duis convallis convallis tellus id interdum
+                    velit laoreet id. Sodales ut eu sem integer. Magna ac placerat vestibulum lectus mauris ultrices
+                    eros. Nibh sed pulvinar proin gravida. Erat pellentesque adipiscing commodo elit. A arcu cursus
+                    vitae congue mauris rhoncus aenean vel. Integer malesuada nunc vel risus commodo viverra maecenas.
+                    Massa sed elementum tempus egestas sed. Diam sit amet nisl suscipit adipiscing bibendum est. Amet
+                    porttitor eget dolor morbi non. Nullam eget felis eget nunc lobortis mattis. Nisi porta lorem mollis
+                    aliquam ut porttitor.
+                </p>
+            </div>
+
+            <div class="service-text-container security-text">
+                <img src="../images/security-2.jpg" alt="security" class="top-left-img">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Ut
+                    porttitor leo a diam sollicitudin tempor id eu. Malesuada proin libero nunc consequat interdum
+                    varius sit amet. Donec adipiscing tristique risus nec feugiat in. Sed lectus vestibulum mattis
+                    ullamcorper velit sed. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque
+                    habitant. Aliquam etiam erat velit scelerisque in dictum. Tempor nec feugiat nisl pretium fusce id.
+                    Commodo viverra maecenas accumsan lacus. Vitae elementum curabitur vitae nunc. Nibh praesent
+                    tristique magna sit amet purus gravida quis.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+
+                </p>
+            </div>
+
+            <div class="service-text-container security-text">
+                <img src="../images/security-3.jpg" alt="security" class="top-right-img">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Aliquam etiam erat velit scelerisque. Eget gravida cum sociis natoque
+                    penatibus et magnis dis parturient. Venenatis tellus in metus vulputate eu scelerisque felis. Purus
+                    sit amet luctus venenatis lectus magna fringilla urna. In massa tempor nec feugiat nisl pretium
+                    fusce id velit. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. Laoreet
+                    suspendisse interdum consectetur libero id faucibus nisl tincidunt. Amet tellus cras adipiscing enim
+                    eu. Eget aliquet nibh praesent tristique. Amet nisl suscipit adipiscing bibendum est ultricies. Eu
+                    facilisis sed odio morbi quis commodo odio aenean sed. Faucibus turpis in eu mi bibendum neque
+                    egestas congue quisque. Elit pellentesque habitant morbi tristique senectus et. Ut aliquam purus sit
+                    amet luctus. Velit scelerisque in dictum non consectetur a erat. Nunc sed blandit libero volutpat
+                    sed
+                    cras ornare. Euismod in pellentesque massa placerat duis. Urna nunc id cursus metus. Sed lectus
+                    vestibulum mattis ullamcorper velit sed ullamcorper morbi. Quam vulputate dignissim suspendisse in
+                    est ante. Ipsum dolor sit amet consectetur adipiscing. Non tellus orci ac auctor augue mauris augue.
+                    Varius sit amet mattis vulputate. Cursus metus aliquam eleifend mi in nulla posuere. Leo in vitae
+                    turpis massa sed elementum tempus egestas. Vitae elementum curabitur vitae nunc. Adipiscing at in
+                    tellus integer feugiat scelerisque varius morbi enim. Nibh nisl condimentum id venenatis. Faucibus
+                    scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Gravida neque convallis a
+                    cras semper. Dolor sed viverra ipsum nunc aliquet bibendum enim. At quis risus sed vulputate odio.
+                    Lectus arcu bibendum at varius vel pharetra.
+                </p>
+            </div>
+        </div>
     </div>
     <footer>
-
+        <p class="footer-text">Copyright @ 2020 PI Services</p>
     </footer>
 </body>
 

@@ -3,19 +3,125 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/global.css" />
+    <script src="../js/services.js"></script>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/investigative.css" />
     <title>Investigative Services</title>
 </head>
 
-<body>
+<body onload="toggleService('Investigative', 0);">
     <header>
-
+        <a href="../index.html"><img src="../images/pi-services-logo.png" alt="logo" class="logo"></a>
+        <ul class="nav-ul">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="investigative.html" class="current">Investigative Services</a></li>
+            <li><a href="security.html">Security Services</a></li>
+            <li><a href="locations.html">Locations</a></li>
+        </ul>
     </header>
     <div class="main-container">
+        <div class="left">
+            <h2 class="left-header">Investigative Services</h2>
+            <ul class="service-list">
+                <br>
+                <!--Will have actual values in final draf(i.e. specific services instead of enumed)-->
+                <li onclick="toggleService('Investigative', 0);" class="investigative-list">Service 1</li>
+                <br>
+                <li onclick="toggleService('Investigative', 1);" class="investigative-list">Service 2</li>
+                <br>
+                <li onclick="toggleService('Investigative', 2);" class="investigative-list">Service 3</li>
+            </ul>
+        </div>
+        <div class="right">
+            <h1 id="investigative-head">Investigative Service 1</h1>
 
+            <hr class="service-hr">
+
+            <div class="service-text-container investigative-text">
+                <img src="../images/investigative.jpg" alt="investigative" class="top-left-img">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                    Mauris augue neque gravida in fermentum et sollicitudin. A condimentum vitae sapien pellentesque
+                    habitant morbi tristique. Nunc mi ipsum faucibus vitae aliquet. Amet cursus sit amet dictum sit amet
+                    justo donec. Vitae turpis massa sed elementum tempus. Ullamcorper velit sed ullamcorper morbi
+                    tincidunt ornare massa eget egestas. Ligula ullamcorper malesuada proin libero nunc consequat
+                    interdum varius. Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Nisi
+                    vitae suscipit tellus mauris. Sed id semper risus in hendrerit gravida rutrum quisque non.
+                    Scelerisque fermentum dui faucibus in. A lacus vestibulum sed arcu non odio euismod lacinia at.
+                    Egestas integer eget aliquet nibh praesent tristique magna sit. Nisl nunc mi ipsum faucibus vitae
+                    aliquet nec ullamcorper. Ultrices sagittis orci a scelerisque purus semper. Mi quis hendrerit dolor
+                    magna eget est. Eget dolor morbi non arcu risus. Amet mattis vulputate enim nulla aliquet porttitor
+                    lacus luctus accumsan.
+
+                </p>
+            </div>
+
+            <div class="service-text-container investigative-text">
+                <img src="../images/investigative-2.jpg" alt="investigative" class="top-right-img">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Viverra
+                    justo nec ultrices dui sapien eget mi proin. Varius morbi enim nunc faucibus a pellentesque sit amet
+                    porttitor. Nulla aliquet enim tortor at auctor urna nunc. Sed cras ornare arcu dui vivamus arcu.
+                    Velit scelerisque in dictum non consectetur a erat. Ipsum dolor sit amet consectetur adipiscing. Ac
+                    turpis egestas maecenas pharetra convallis posuere morbi leo urna. Id faucibus nisl tincidunt eget
+                    nullam non nisi est sit. Quam vulputate dignissim suspendisse in est ante in. Purus non enim
+                    praesent elementum. Morbi blandit cursus risus at ultrices mi. In iaculis nunc sed augue lacus. Enim
+                    nunc faucibus a pellentesque. Ac tortor vitae purus faucibus ornare suspendisse sed. Adipiscing at
+                    in tellus integer feugiat scelerisque varius morbi. Aliquam ut porttitor leo a diam sollicitudin
+                    tempor. Scelerisque mauris pellentesque pulvinar pellentesque habitant. Eget lorem dolor sed viverra
+                    ipsum nunc aliquet. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. Mauris
+                    ultrices eros in cursus turpis massa. Id aliquet risus feugiat in ante. Leo a diam sollicitudin
+                    tempor id eu. Amet porttitor eget dolor morbi non. Orci phasellus egestas tellus rutrum tellus
+                    pellentesque eu tincidunt. Sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Sed
+                    sed risus pretium quam. Orci eu lobortis elementum nibh tellus. Blandit turpis cursus in hac.
+                    Gravida arcu ac tortor dignissim convallis aenean et. Dictum sit amet justo donec enim diam.
+                    Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. Elit at imperdiet dui
+                    accumsan sit amet.
+                </p>
+            </div>
+
+            <div class="service-text-container investigative-text">
+                <img src="../images/investigative-3.jpg" alt="investigative" class="top-left-img">
+                <p>
+                    Viverra nam libero justo laoreet sit amet cursus. Mi eget mauris pharetra et ultrices. Aliquam
+                    vestibulum morbi blandit cursus risus. Diam maecenas sed enim ut sem viverra aliquet. Lobortis
+                    mattis aliquam faucibus purus. Dictumst quisque sagittis purus sit amet volutpat consequat. Volutpat
+                    diam ut venenatis tellus in. Egestas congue quisque egestas diam in arcu cursus euismod quis.
+                    Faucibus vitae aliquet nec ullamcorper sit amet risus. Rhoncus dolor purus non enim praesent
+                    elementum facilisis. In ante metus dictum at. Quis hendrerit dolor magna eget. In nibh mauris cursus
+                    mattis molestie. Interdum varius sit amet mattis vulputate enim nulla aliquet porttitor. In
+                    pellentesque massa placerat duis ultricies lacus. Malesuada fames ac turpis egestas sed tempus urna.
+                    Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et. Tincidunt vitae
+                    semper quis lectus nulla. Felis eget velit aliquet sagittis id consectetur purus ut faucibus. Morbi
+                    tempus iaculis urna id volutpat lacus laoreet. Quis commodo odio aenean sed adipiscing diam donec
+                    adipiscing tristique. Nibh sit amet commodo nulla facilisi nullam. Quam viverra orci sagittis eu
+                    volutpat odio. Odio morbi quis commodo odio aenean sed adipiscing. Ac felis donec et odio
+                    pellentesque. Sed arcu non odio euismod lacinia at. Nec sagittis aliquam malesuada bibendum. Rhoncus
+                    aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Neque sodales ut
+                    etiam sit amet nisl purus in mollis. Vel fringilla est ullamcorper eget nulla facilisi. Ut sem nulla
+                    pharetra diam sit amet. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Aliquet lectus
+                    proin nibh nisl. Convallis aenean et tortor at risus viverra adipiscing. At lectus urna duis
+                    convallis convallis tellus id. Urna neque viverra justo nec ultrices.
+                </p>
+            </div>
+        </div>
     </div>
     <footer>
-
+        <p class="footer-text">Copyright @ 2020 PI Services</p>
     </footer>
 </body>
 

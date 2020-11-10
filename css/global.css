@@ -20,8 +20,42 @@ footer {
     border-top: 1px solid black;
 }
 
+.footer-text {
+    font-size: .65em;
+    padding-left: .75em;
+    padding-top: 1.5em;
+}
+
 .main-container {
-    height: 93vh;
+    width: 100%;
+    height: 98vh;
+}
+
+.nav-ul {
+    margin-right: 5%;
+    justify-content: center;
+    float: right;
+    margin-top: 1.75em;
+}
+
+.nav-ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: .5em;
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-ul li a:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.current {
+    color: red !important;
 }
 
 .logo {
