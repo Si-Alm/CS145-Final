@@ -12,11 +12,13 @@
 .right {
     width: 84.5%;
     float: right;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .right h1 {
     text-align: center;
     margin-top: 2.5%;
+    font-family: 'Goldman', cursive;
 }
 
 .service-hr {
@@ -28,12 +30,14 @@
 
 .left-header {
     text-align: center;
+    font-family: 'Goldman', cursive;
 }
 
 .service-list {
     margin-left: 15%;
     list-style: none;
     font-size: 1.5em;
+    font-family: 'Goldman', cursive;
 }
 
 .service-text-container {

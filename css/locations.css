@@ -27,13 +27,16 @@
 #bozeman h2 {
     text-align: center;
     font-size: 2em;
+    font-family: 'Goldman', cursive;
 }
 #tokyo h2 {
     text-align: center;
     font-size: 2em;
+    font-family: 'Goldman', cursive;
 }
 h1 {
     text-align: center;
     font-size: 4em;
     padding-top: 5%;
+    font-family: 'Goldman', cursive;
 }
