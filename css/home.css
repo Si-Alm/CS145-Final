@@ -1,5 +1,5 @@
 .main-container {
-    background-image: url("../images/Private-Investigator.jpg");
+    background-image: url("../images/Private-Investigator.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -8,11 +8,13 @@ h1 {
     font-size: 5.5em;
     color: #ff0909;
     padding-top: 20%;
+    font-family: 'Goldman', cursive;
 }
 h2 {
     text-align: center;
     font-size: 2.5em;
     color: #ff0909;
+    font-family: 'Goldman', cursive;
 }
 h2 a {
     color: #ffffff;
