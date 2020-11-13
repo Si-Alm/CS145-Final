@@ -3,21 +3,25 @@
     margin: 0;
 }
 
+body {
+    background-color: #dddde7;
+}
+
 header {
     width: 100%;
     height: 5em;
-    background-color: lightgray;
-    border-bottom: 1px solid black;
+    background-color: #61666e;
+    border-bottom: 1px solid gray;
     justify-content: center;
 }
 
 footer {
-    background-color: #565656;
+    background-color: #111E20;
     color: white;
     display: flex;
     height: 2.5em;
     width: 100%;
-    border-top: 1px solid black;
+    border-top: 1px solid gray;
 }
 
 .footer-text {
@@ -41,12 +45,12 @@ footer {
 .nav-ul li {
     display: inline-block;
     list-style: none;
-    margin-left: .5em;
+    margin-left: .5em;   
 }
 
 .nav-ul li a {
     text-decoration: none;
-    color: black;
+    color: #E6E6F0;
 }
 
 .nav-ul li a:hover {

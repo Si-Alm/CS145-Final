@@ -7,6 +7,8 @@
     width: 15%;
     border-right: 1px solid black;
     float: left;
+    background-color: #313642;
+    color: white;
 }
 
 .right {
@@ -27,11 +29,13 @@
 
 
 .left-header {
+    padding-top: .5em;
     text-align: center;
+    font-size: 1.6em;
 }
 
 .service-list {
-    margin-left: 15%;
+    margin-left: 17.5%;
     list-style: none;
     font-size: 1.5em;
 }
@@ -48,24 +52,24 @@
     text-align: justify;
 }
 
-.top-left-img {
-    float: left;
-    padding: 0 .5em .5em 0;
-    max-width: 20em;
-}
-
 .top-right-img {
     float: right;
     padding-left: 0.5em;
     max-width: 20em;
 }
 
-.security-text{
+.top-left-img {
+    float: left;
+    padding: 0 .5em .5em 0;
+    max-width: 20em;
+}
+
+.security-text {
     display: none;
 }
 
 .security-text:first-child {
-    display: block !important;
+    display: block;
 }
 
 .security-list {

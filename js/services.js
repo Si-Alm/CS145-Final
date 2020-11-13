@@ -1,3 +1,6 @@
+var investigativeServices = ["Kidnapping", "Arson Investigation", "Cheating Spouse Surveillance"];
+var securityServices = ["Home Security", "Event Security", "Personal Security"];
+
 function toggleService(type, index) {
     let serviceDivs;
     let headerText;
@@ -16,12 +19,12 @@ function toggleService(type, index) {
     for (let i = 0; i < serviceDivs.length; i++) {
         if (i != index) {
             serviceDivs[i].style.display = "none";
-            listText[i].style.color = "black";
+            listText[i].style.color = "white";
         } else {
             serviceDivs[i].style.display = "block";
             listText[i].style.color = "red";
         }
     }
 
-    headerText.innerHTML = type + " Service " + (index + 1);
+    headerText.innerHTML = "Security" == type ? securityServices[index] : investigativeServices[index];
 }
